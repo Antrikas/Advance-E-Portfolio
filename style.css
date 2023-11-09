@@ -11,6 +11,11 @@ li {
 list-style-type: none;
 }
 
+p {
+line-height: 1.5;
+font-size: 16px;
+}
+
 section {
     background-color: rgb(245, 245, 245);
 }
@@ -21,8 +26,8 @@ margin-bottom: 12px;
 text-align: left;
 line-height: 1;
 }
-
-.title--secondary {
+ 
+.green {
 color: rgb(0, 128, 128);
 }
 
@@ -46,7 +51,11 @@ LANDING PAGE
     max-width: 1000px;
 }
 
-
+.header__para {
+    font-size: 20px;
+    line-height: 2;
+    max-width: 450px;
+}
 
 /* 
 
